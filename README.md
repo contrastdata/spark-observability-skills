@@ -1,3 +1,9 @@
+<p align="center">
+  <a href="https://contrastdb.com">
+    <img src="docs/assets/contrast-banner.svg" alt="Contrast Spark Observability Skills" width="100%">
+  </a>
+</p>
+
 # Spark observability skills
 
 Open-source agent skills from [Contrast](https://contrastdb.com) for diagnosing and optimizing [Apache Spark](https://spark.apache.org) workloads. Each skill is a single `SKILL.md` with an ordered list of the highest-impact causes to check, plus a read-only Spark History Server REST client under `scripts/` that collects the runtime evidence in one bounded snapshot.
