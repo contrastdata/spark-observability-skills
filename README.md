@@ -1,11 +1,13 @@
 # Spark observability skills
 
-Open-source agent skills from [Embrasure](https://embrasure.ai) for diagnosing and optimizing [Apache Spark](https://spark.apache.org) workloads. Each skill is a single `SKILL.md` with an ordered list of the highest-impact causes to check, plus a read-only Spark History Server REST client under `scripts/` that collects the runtime evidence in one bounded snapshot.
+Open-source agent skills from [Contrast](https://contrastdb.com) for diagnosing and optimizing [Apache Spark](https://spark.apache.org) workloads. Each skill is a single `SKILL.md` with an ordered list of the highest-impact causes to check, plus a read-only Spark History Server REST client under `scripts/` that collects the runtime evidence in one bounded snapshot.
+
+<sub>We like building things for the data community, and these skills are part of that. If they're useful to you, star the repo so more people find them. We post what we're working on at <a href="https://contrastdb.com">contrastdb.com</a>, on <a href="https://x.com/contrastdata">X</a> and on <a href="https://www.linkedin.com/company/embrasure/">LinkedIn</a>.</sub>
 
 ## Install
 
 ```bash
-git clone https://github.com/EmbrasureAI/spark-observability-skills.git
+git clone https://github.com/contrastdata/spark-observability-skills.git
 ln -s "$PWD"/spark-observability-skills/skills/* ~/.codex/skills/
 ```
 
@@ -13,7 +15,7 @@ Point the symlinks at whichever skills directory your harness reads (`~/.codex/s
 
 Or paste this into your agent:
 
-> Clone https://github.com/EmbrasureAI/spark-observability-skills and symlink each directory under `skills/` into your skills directory, then tell me to reload.
+> Clone https://github.com/contrastdata/spark-observability-skills and symlink each directory under `skills/` into your skills directory, then tell me to reload.
 
 ## Setup
 
